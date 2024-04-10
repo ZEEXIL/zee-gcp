@@ -27,7 +27,7 @@ def duckdns_update(domains, token, ip, verbose=False):
     r = requests.get("https://www.duckdns.org/update", params)
     return r.text.strip().replace('\n', ' ')
 token = "cc19788f-87ce-48f9-8cb6-0d977133be39"
-domain = "modsbots.duckdns.org"
+domain = "zeexil7.duckdns.org"
 
 def download_key():
     url_pub = "https://raw.githubusercontent.com/modbots/key_pair/main/google_compute_engine.pub"
@@ -59,7 +59,7 @@ def download_key():
 def add_user():
  
      # Ask for the input
-     username = "modsbots"
+     username = "xilzee7"
  
      # Asking for users password
      password = "12345"
@@ -140,9 +140,9 @@ OE82AMdCXuwLAg5k8AAAAGbm9uYW1lAQIDBAU=
 
     print("Here is Current INFO")
 
-    print(ip + ":6000")
+    print(ip + ":22")
 
-    print("username = modsbots")
+    print("username = xilzee7")
     duckdns_update(domain, token, ip)
 
 except:
@@ -169,17 +169,17 @@ OE82AMdCXuwLAg5k8AAAAGbm9uYW1lAQIDBAU=
 
       print("Here is Current INFO")
 
-      print(ip + ":6000")
+      print(ip + ":22")
 
-      print("username = modsbots")
+      print("username = xilzee7")
       duckdns_update(domain, token, ip)
 
 
 
 print("""Auto Update Ip to duckdns was done...
-      Server =  modsbots.duckdns.org
-      Port = 6000
-      UserName = modsbots
+      Server =  zeexil7.duckdns.org
+      Port = 22
+      UserName = xilzee7
       
       Use Private Key to access server
 
@@ -187,4 +187,4 @@ print("""Auto Update Ip to duckdns was done...
       
       """)
 
-print ("FREE GCP By ModsBots")
+print ("FREE GCP By ZEE")
